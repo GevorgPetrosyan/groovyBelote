@@ -30,10 +30,7 @@ class Game {
 
     def printGame = { ->
         while (playedGame) {
-            print "${playedGame.remove()} |"
-            print "${playedGame.remove()} |"
-            print "${playedGame.remove()} |"
-            println playedGame.remove()
+            println "${playedGame.remove()} | ${playedGame.remove()} | ${playedGame.remove()} | ${playedGame.remove()} "
 
         }
     }
