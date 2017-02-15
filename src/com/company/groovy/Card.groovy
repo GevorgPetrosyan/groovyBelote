@@ -1,5 +1,8 @@
 package com.company.groovy
 
+import groovy.transform.ToString
+
+@ToString(includePackage = false)
 class Card {
     final Type type
     final CardValue cardValue
@@ -9,8 +12,4 @@ class Card {
         this.cardValue = cardValue
     }
 
-    @Override
-    public String toString() {
-        type.toString() + cardValue
-    }
 }
