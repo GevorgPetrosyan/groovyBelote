@@ -1,8 +1,8 @@
 package com.company.groovy
 
 class Card {
-    final Type type;
-    final CardValue cardValue;
+    final Type type
+    final CardValue cardValue
 
     Card(Type type, CardValue cardValue) {
         this.type = type
