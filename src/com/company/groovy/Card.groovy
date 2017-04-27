@@ -10,6 +10,8 @@ class Card {
     Card(Type type, CardValue cardValue) {
         this.type = type
         this.cardValue = cardValue
+
+        
     }
 
 }
