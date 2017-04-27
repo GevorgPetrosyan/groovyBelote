@@ -23,7 +23,7 @@ class Game {
             Card card = firstPlayer.play()
             playedGame.add(card)
             for (Player nextPlayer : players[1..3]) {
-                playedGame.add(nextPlayer.play(card.getType()))
+                        playedGame.add(nextPlayer.play(card.getType()))
             }
         }
     }
